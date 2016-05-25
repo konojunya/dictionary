@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <title>国語辞書</title>
+  <link rel="stylesheet" href="css/sanitize.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="apple-touch-icon" href="img/icon.png"/>
+</head>
+
+<body>
+<h1>国語辞典</h1>
+<div class="search clearfix">
+	<input type="text" name="text" id="input" placeholder="例）学校">
+	<button id="btn">調べる！</button>
+</div>
+<div class="result"><span class="resultTitle hidden">言葉の世界へ！</span></div>
+<button class="open">単語帳</button>
+
+<div class="word">
+	<button class="close">閉じる</button>
+	<ul class="historyList"></ul>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="https://cdn.mlkcca.com/v2.0.0/milkcocoa.js"></script>
+<script src="js/main.js"></script>
+</body>
+
+</html>
